@@ -14,3 +14,6 @@ I believe the generated file should be free to use. The UEFI Forum states:
 specifications have agreed that any IP needed to implement the specification
 will be made available on reasonable and non-discriminatory terms."
 
+If you're writing code for Linux, the proper way to do this is with libudev.
+But! If you're writing cross platform code / udev might not be available /
+this is all you need / want to keep things simple... this'll do it! :)
