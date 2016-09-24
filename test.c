@@ -16,11 +16,31 @@ const char *pnp_name(const char *key);
 int main(void)
 {
     const char *name;
+    
+    /* super paranoid check to make sure the binary search never infinite loops */
+    for (int a = 'A'; a <= 'Z'; a++)
+    {
+        for (int b = 'A'; b <= 'Z'; b++)
+        {
+            for (int c = 'A'; c <= 'Z'; c++)
+            {
+                char buf[3];
+                buf[0] = a;
+                buf[1] = b;
+                buf[2] = c;
+                name = pnp_name(buf);
+            }
+        }
+    }
+    
+    /* Check a few unused names don't give a result when they shouldn't! */
     name = pnp_name("???"); assert(name == NULL);
     name = pnp_name("A??"); assert(name == NULL);
     name = pnp_name("AA?"); assert(name == NULL);
     name = pnp_name("Z??"); assert(name == NULL);
     name = pnp_name("AZ?"); assert(name == NULL);
+    
+    /* Check every used name gives the correct result! */
     name = pnp_name("AAA"); assert(name != NULL); assert(0 == strcmp(name, "Avolites Ltd"));
     name = pnp_name("AAE"); assert(name != NULL); assert(0 == strcmp(name, "Anatek Electronics Inc."));
     name = pnp_name("AAM"); assert(name != NULL); assert(0 == strcmp(name, "Aava Mobile Oy"));
