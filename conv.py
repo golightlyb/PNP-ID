@@ -44,8 +44,8 @@ size_t num_ids = {num_ids};
 static const char *pnp_keys =
 "{keystr}";
 
-/* pnp_names is a string of null terminated company names every 128 bytes,
-   matching pnp_keys in order.  */
+/* pnp_names is an array of strings of company names, eaching
+ * matching pnp_keys in order. */
 static const char *pnp_names[] =
 {{
 {namestr}

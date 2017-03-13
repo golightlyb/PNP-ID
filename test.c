@@ -276,6 +276,7 @@ int main(void)
     name = pnp_name("BBB"); assert(name != NULL); assert(0 == strcmp(name, "an-najah university"));
     name = pnp_name("BBH"); assert(name != NULL); assert(0 == strcmp(name, "B&Bh"));
     name = pnp_name("BBL"); assert(name != NULL); assert(0 == strcmp(name, "Brain Boxes Limited"));
+    name = pnp_name("BBX"); assert(name != NULL); assert(0 == strcmp(name, "Black Box Corporation"));
     name = pnp_name("BCC"); assert(name != NULL); assert(0 == strcmp(name, "Beaver Computer Corporaton"));
     name = pnp_name("BCD"); assert(name != NULL); assert(0 == strcmp(name, "Barco GmbH"));
     name = pnp_name("BCI"); assert(name != NULL); assert(0 == strcmp(name, "Broadata Communications Inc."));
@@ -605,6 +606,7 @@ int main(void)
     name = pnp_name("DPI"); assert(name != NULL); assert(0 == strcmp(name, "DocuPoint"));
     name = pnp_name("DPL"); assert(name != NULL); assert(0 == strcmp(name, "Digital Projection Limited"));
     name = pnp_name("DPM"); assert(name != NULL); assert(0 == strcmp(name, "ADPM Synthesis sas"));
+    name = pnp_name("DPN"); assert(name != NULL); assert(0 == strcmp(name, "Shanghai Lexiang Technology Limited"));
     name = pnp_name("DPS"); assert(name != NULL); assert(0 == strcmp(name, "Digital Processing Systems"));
     name = pnp_name("DPT"); assert(name != NULL); assert(0 == strcmp(name, "DPT"));
     name = pnp_name("DPX"); assert(name != NULL); assert(0 == strcmp(name, "DpiX, Inc."));
@@ -617,6 +619,7 @@ int main(void)
     name = pnp_name("DSA"); assert(name != NULL); assert(0 == strcmp(name, "Display Solution AG"));
     name = pnp_name("DSD"); assert(name != NULL); assert(0 == strcmp(name, "DS Multimedia Pte Ltd"));
     name = pnp_name("DSI"); assert(name != NULL); assert(0 == strcmp(name, "Digitan Systems Inc"));
+    name = pnp_name("DSJ"); assert(name != NULL); assert(0 == strcmp(name, "VR Technology Holdings Limited"));
     name = pnp_name("DSM"); assert(name != NULL); assert(0 == strcmp(name, "DSM Digital Services GmbH"));
     name = pnp_name("DSP"); assert(name != NULL); assert(0 == strcmp(name, "Domain Technology Inc"));
     name = pnp_name("DTA"); assert(name != NULL); assert(0 == strcmp(name, "DELTATEC"));
@@ -982,6 +985,7 @@ int main(void)
     name = pnp_name("HXM"); assert(name != NULL); assert(0 == strcmp(name, "Hexium Ltd."));
     name = pnp_name("HYC"); assert(name != NULL); assert(0 == strcmp(name, "Hypercope Gmbh Aachen"));
     name = pnp_name("HYD"); assert(name != NULL); assert(0 == strcmp(name, "Hydis Technologies.Co.,LTD"));
+    name = pnp_name("HYL"); assert(name != NULL); assert(0 == strcmp(name, "Shanghai Chai Ming Huang Info&Tech Co, Ltd"));
     name = pnp_name("HYO"); assert(name != NULL); assert(0 == strcmp(name, "HYC CO., LTD."));
     name = pnp_name("HYP"); assert(name != NULL); assert(0 == strcmp(name, "Hyphen Ltd"));
     name = pnp_name("HYR"); assert(name != NULL); assert(0 == strcmp(name, "Hypertec Pty Ltd"));
@@ -1112,6 +1116,7 @@ int main(void)
     name = pnp_name("IUC"); assert(name != NULL); assert(0 == strcmp(name, "ICSL"));
     name = pnp_name("IVI"); assert(name != NULL); assert(0 == strcmp(name, "Intervoice Inc"));
     name = pnp_name("IVM"); assert(name != NULL); assert(0 == strcmp(name, "Iiyama North America"));
+    name = pnp_name("IVR"); assert(name != NULL); assert(0 == strcmp(name, "Inlife-Handnet Co., Ltd."));
     name = pnp_name("IVS"); assert(name != NULL); assert(0 == strcmp(name, "Intevac Photonics Inc."));
     name = pnp_name("IWR"); assert(name != NULL); assert(0 == strcmp(name, "Icuiti Corporation"));
     name = pnp_name("IWX"); assert(name != NULL); assert(0 == strcmp(name, "Intelliworxx, Inc."));
@@ -1678,6 +1683,7 @@ int main(void)
     name = pnp_name("PMC"); assert(name != NULL); assert(0 == strcmp(name, "PMC Consumer Electronics Ltd"));
     name = pnp_name("PMD"); assert(name != NULL); assert(0 == strcmp(name, "TDK USA Corporation"));
     name = pnp_name("PMM"); assert(name != NULL); assert(0 == strcmp(name, "Point Multimedia System"));
+    name = pnp_name("PMS"); assert(name != NULL); assert(0 == strcmp(name, "Pabian Embedded Systems"));
     name = pnp_name("PMT"); assert(name != NULL); assert(0 == strcmp(name, "Promate Electronic Co., Ltd."));
     name = pnp_name("PMX"); assert(name != NULL); assert(0 == strcmp(name, "Photomatrix"));
     name = pnp_name("PNG"); assert(name != NULL); assert(0 == strcmp(name, "Microsoft"));
@@ -1734,6 +1740,7 @@ int main(void)
     name = pnp_name("PVM"); assert(name != NULL); assert(0 == strcmp(name, "Penta Studiotechnik GmbH"));
     name = pnp_name("PVN"); assert(name != NULL); assert(0 == strcmp(name, "Pixel Vision"));
     name = pnp_name("PVP"); assert(name != NULL); assert(0 == strcmp(name, "Klos Technologies, Inc."));
+    name = pnp_name("PVR"); assert(name != NULL); assert(0 == strcmp(name, "Pimax Tech. CO., LTD"));
     name = pnp_name("PXC"); assert(name != NULL); assert(0 == strcmp(name, "Phoenix Contact"));
     name = pnp_name("PXE"); assert(name != NULL); assert(0 == strcmp(name, "PIXELA CORPORATION"));
     name = pnp_name("PXL"); assert(name != NULL); assert(0 == strcmp(name, "The Moving Pixel Company"));
@@ -2078,6 +2085,7 @@ int main(void)
     name = pnp_name("TCC"); assert(name != NULL); assert(0 == strcmp(name, "Tandon Corporation"));
     name = pnp_name("TCD"); assert(name != NULL); assert(0 == strcmp(name, "Taicom Data Systems Co., Ltd."));
     name = pnp_name("TCE"); assert(name != NULL); assert(0 == strcmp(name, "Century Corporation"));
+    name = pnp_name("TCF"); assert(name != NULL); assert(0 == strcmp(name, "Televic Conference"));
     name = pnp_name("TCH"); assert(name != NULL); assert(0 == strcmp(name, "Interaction Systems, Inc"));
     name = pnp_name("TCI"); assert(name != NULL); assert(0 == strcmp(name, "Tulip Computers Int'l B.V."));
     name = pnp_name("TCJ"); assert(name != NULL); assert(0 == strcmp(name, "TEAC America Inc"));
@@ -2128,6 +2136,7 @@ int main(void)
     name = pnp_name("TLI"); assert(name != NULL); assert(0 == strcmp(name, "TOSHIBA TELI CORPORATION"));
     name = pnp_name("TLK"); assert(name != NULL); assert(0 == strcmp(name, "Telelink AG"));
     name = pnp_name("TLL"); assert(name != NULL); assert(0 == strcmp(name, "Thinklogical"));
+    name = pnp_name("TLN"); assert(name != NULL); assert(0 == strcmp(name, "Techlogix Networx"));
     name = pnp_name("TLS"); assert(name != NULL); assert(0 == strcmp(name, "Teleste Educational OY"));
     name = pnp_name("TLT"); assert(name != NULL); assert(0 == strcmp(name, "Dai Telecom S.p.A."));
     name = pnp_name("TLV"); assert(name != NULL); assert(0 == strcmp(name, "S3 Inc"));
@@ -2171,6 +2180,7 @@ int main(void)
     name = pnp_name("TRL"); assert(name != NULL); assert(0 == strcmp(name, "Royal Information"));
     name = pnp_name("TRM"); assert(name != NULL); assert(0 == strcmp(name, "Tekram Technology Company Ltd"));
     name = pnp_name("TRN"); assert(name != NULL); assert(0 == strcmp(name, "Datacommunicatie Tron B.V."));
+    name = pnp_name("TRP"); assert(name != NULL); assert(0 == strcmp(name, "TRAPEZE GROUP"));
     name = pnp_name("TRS"); assert(name != NULL); assert(0 == strcmp(name, "Torus Systems Ltd"));
     name = pnp_name("TRT"); assert(name != NULL); assert(0 == strcmp(name, "Tritec Electronic AG"));
     name = pnp_name("TRU"); assert(name != NULL); assert(0 == strcmp(name, "Aashima Technology B.V."));
@@ -2204,6 +2214,7 @@ int main(void)
     name = pnp_name("TUT"); assert(name != NULL); assert(0 == strcmp(name, "Tut Systems"));
     name = pnp_name("TVD"); assert(name != NULL); assert(0 == strcmp(name, "Tecnovision"));
     name = pnp_name("TVI"); assert(name != NULL); assert(0 == strcmp(name, "Truevision"));
+    name = pnp_name("TVL"); assert(name != NULL); assert(0 == strcmp(name, "Total Vision LTD"));
     name = pnp_name("TVM"); assert(name != NULL); assert(0 == strcmp(name, "Taiwan Video & Monitor Corporation"));
     name = pnp_name("TVO"); assert(name != NULL); assert(0 == strcmp(name, "TV One Ltd"));
     name = pnp_name("TVR"); assert(name != NULL); assert(0 == strcmp(name, "TV Interactive Corporation"));
