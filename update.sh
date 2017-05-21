@@ -8,6 +8,7 @@ rm uefi-pnp.csv
 rm pnpid.c
 rm test.c
 rm testbin
+rm examplebin
 
 echo "Downloading PNP ID REGISTRY from uefi.org"
 wget http://www.uefi.org/uefi-pnp-export
@@ -19,4 +20,6 @@ echo "Compiling test program"
 gcc -std=c99 -Wall -Wextra pnpid.c test.c -o testbin
 echo "Running test program"
 ./testbin
+echo "Compiling example program"
+gcc -std=c99 -Wall -Wextra pnpid.c example.c -o examplebin
 echo "Done"
