@@ -1,4 +1,5 @@
 import csv
+from datetime import datetime
 import sys
 
 records = {} # a dict of (pnpid, name)
@@ -17,6 +18,7 @@ for line in reader:
     records[pnpid] = name
 
 ids = sorted(records.keys())
+dt = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
 def checker(x):
     return '''    name = pnp_name("%s"); assert(name != NULL); assert(0 == strcmp(name, "%s"));''' % (x, records[x])
@@ -31,7 +33,17 @@ csrc = '''
  * UEFI specifications have agreed that any IP needed to implement the
  * specification will be made available on reasonable and non-discriminatory
  * terms.
-*/
+ *
+ * This file was automatically generated on {dt}
+ * by https://github.com/golightlyb/PNP-ID
+ *
+ * This file is a trivial and obvious implementation of a part of the spec
+ * dealing exclusively with facts, where the expression in code is dictated
+ * entirely by practical or technical considerations so this should not be a
+ * considered an "original" or "creative" work for the purposes of EU or US
+ * Copyright law. As such, you are free to use it how you wish.
+ *
+ */
 
 #include <string.h> // strcmp
 #include <assert.h>
@@ -71,5 +83,5 @@ int main(void)
 
 '''
 
-print(csrc.format(checks='\n'.join(checks)))
+print(csrc.format(dt=dt, checks='\n'.join(checks)))
 

@@ -25,13 +25,19 @@ csrc = '''
 /*
  * PNP IDs automatically generated from http://www.uefi.org/pnp_id_list
  * 
- * There is no charge for use of the specification itself. The promoters of
+ * "There is no charge for use of the specification itself. The promoters of
  * UEFI specifications have agreed that any IP needed to implement the
  * specification will be made available on reasonable and non-discriminatory
- * terms.
+ * terms."
  *
  * This file was automatically generated on {dt}
  * by https://github.com/golightlyb/PNP-ID
+ *
+ * This file is a trivial and obvious implementation of a part of the spec
+ * dealing exclusively with facts, where the expression in code is dictated
+ * entirely by practical or technical considerations so this should not be a
+ * considered an "original" or "creative" work for the purposes of EU or US
+ * Copyright law. As such, you are free to use it how you wish.
  *
  */
 
