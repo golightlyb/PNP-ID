@@ -22,8 +22,8 @@ If this code saved you some time, please consider
 
 **Features:**
 
-    * Exhaustively tested
-    * Efficient binary search lookup
+* Exhaustively tested
+* Efficient binary search lookup
 
 
 **Optional requirements:**
@@ -31,8 +31,8 @@ If this code saved you some time, please consider
 These are only needed if you want to download the latest list from the UEFI
 Forum body and use it to generate updated C code.
 
-    * python3
-    * gnumeric for ssconvert (xls -> csv)
+* python3
+* gnumeric for ssconvert (xls -> csv)
 
 
 **Usage Example:**
