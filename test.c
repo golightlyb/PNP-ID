@@ -7,7 +7,7 @@
  * specification will be made available on reasonable and non-discriminatory
  * terms.
  *
- * This file was automatically generated on 2017-11-26 11:45:57
+ * This file was automatically generated on 2018-06-29 21:56:52
  * by https://github.com/golightlyb/PNP-ID
  *
  * This file is a trivial and obvious implementation of a part of the spec
@@ -694,6 +694,7 @@ int main(void)
     name = pnp_name("EHJ"); assert(name != NULL); assert(0 == strcmp(name, "Epson Research"));
     name = pnp_name("EHN"); assert(name != NULL); assert(0 == strcmp(name, "Enhansoft"));
     name = pnp_name("EIC"); assert(name != NULL); assert(0 == strcmp(name, "Eicon Technology Corporation"));
+    name = pnp_name("EIN"); assert(name != NULL); assert(0 == strcmp(name, "Elegant Invention"));
     name = pnp_name("EKA"); assert(name != NULL); assert(0 == strcmp(name, "MagTek Inc."));
     name = pnp_name("EKC"); assert(name != NULL); assert(0 == strcmp(name, "Eastman Kodak Company"));
     name = pnp_name("EKS"); assert(name != NULL); assert(0 == strcmp(name, "EKSEN YAZILIM"));
@@ -996,6 +997,7 @@ int main(void)
     name = pnp_name("HWC"); assert(name != NULL); assert(0 == strcmp(name, "DBA Hans Wedemeyer"));
     name = pnp_name("HWD"); assert(name != NULL); assert(0 == strcmp(name, "Highwater Designs Ltd"));
     name = pnp_name("HWP"); assert(name != NULL); assert(0 == strcmp(name, "Hewlett Packard"));
+    name = pnp_name("HWV"); assert(name != NULL); assert(0 == strcmp(name, "Huawei Technologies Co., Inc."));
     name = pnp_name("HXM"); assert(name != NULL); assert(0 == strcmp(name, "Hexium Ltd."));
     name = pnp_name("HYC"); assert(name != NULL); assert(0 == strcmp(name, "Hypercope Gmbh Aachen"));
     name = pnp_name("HYD"); assert(name != NULL); assert(0 == strcmp(name, "Hydis Technologies.Co.,LTD"));
@@ -1058,6 +1060,7 @@ int main(void)
     name = pnp_name("IMC"); assert(name != NULL); assert(0 == strcmp(name, "IMC Networks"));
     name = pnp_name("IMD"); assert(name != NULL); assert(0 == strcmp(name, "ImasDe Canarias S.A."));
     name = pnp_name("IME"); assert(name != NULL); assert(0 == strcmp(name, "Imagraph"));
+    name = pnp_name("IMF"); assert(name != NULL); assert(0 == strcmp(name, "Immersive Audio Technologies France"));
     name = pnp_name("IMG"); assert(name != NULL); assert(0 == strcmp(name, "IMAGENICS Co., Ltd."));
     name = pnp_name("IMI"); assert(name != NULL); assert(0 == strcmp(name, "International Microsystems Inc"));
     name = pnp_name("IMM"); assert(name != NULL); assert(0 == strcmp(name, "Immersion Corporation"));
@@ -1144,6 +1147,7 @@ int main(void)
     name = pnp_name("JCE"); assert(name != NULL); assert(0 == strcmp(name, "Jace Tech Inc"));
     name = pnp_name("JDI"); assert(name != NULL); assert(0 == strcmp(name, "Japan Display Inc."));
     name = pnp_name("JDL"); assert(name != NULL); assert(0 == strcmp(name, "Japan Digital Laboratory Co.,Ltd."));
+    name = pnp_name("JEM"); assert(name != NULL); assert(0 == strcmp(name, "Japan E.M.Solutions Co., Ltd."));
     name = pnp_name("JEN"); assert(name != NULL); assert(0 == strcmp(name, "N-Vision"));
     name = pnp_name("JET"); assert(name != NULL); assert(0 == strcmp(name, "JET POWER TECHNOLOGY CO., LTD."));
     name = pnp_name("JFX"); assert(name != NULL); assert(0 == strcmp(name, "Jones Futurex Inc"));
@@ -1285,6 +1289,7 @@ int main(void)
     name = pnp_name("LSI"); assert(name != NULL); assert(0 == strcmp(name, "Loughborough Sound Images"));
     name = pnp_name("LSJ"); assert(name != NULL); assert(0 == strcmp(name, "LSI Japan Company Ltd"));
     name = pnp_name("LSL"); assert(name != NULL); assert(0 == strcmp(name, "Logical Solutions"));
+    name = pnp_name("LSP"); assert(name != NULL); assert(0 == strcmp(name, "Lightspace Technologies"));
     name = pnp_name("LSY"); assert(name != NULL); assert(0 == strcmp(name, "LSI Systems Inc"));
     name = pnp_name("LTC"); assert(name != NULL); assert(0 == strcmp(name, "Labtec Inc"));
     name = pnp_name("LTI"); assert(name != NULL); assert(0 == strcmp(name, "Jongshine Tech Inc"));
@@ -1765,6 +1770,7 @@ int main(void)
     name = pnp_name("PXE"); assert(name != NULL); assert(0 == strcmp(name, "PIXELA CORPORATION"));
     name = pnp_name("PXL"); assert(name != NULL); assert(0 == strcmp(name, "The Moving Pixel Company"));
     name = pnp_name("PXM"); assert(name != NULL); assert(0 == strcmp(name, "Proxim Inc"));
+    name = pnp_name("PXN"); assert(name != NULL); assert(0 == strcmp(name, "PixelNext Inc"));
     name = pnp_name("QCC"); assert(name != NULL); assert(0 == strcmp(name, "QuakeCom Company Ltd"));
     name = pnp_name("QCH"); assert(name != NULL); assert(0 == strcmp(name, "Metronics Inc"));
     name = pnp_name("QCI"); assert(name != NULL); assert(0 == strcmp(name, "Quanta Computer Inc"));
@@ -1772,6 +1778,7 @@ int main(void)
     name = pnp_name("QCL"); assert(name != NULL); assert(0 == strcmp(name, "Quadrant Components Inc"));
     name = pnp_name("QCP"); assert(name != NULL); assert(0 == strcmp(name, "Qualcomm Inc"));
     name = pnp_name("QDI"); assert(name != NULL); assert(0 == strcmp(name, "Quantum Data Incorporated"));
+    name = pnp_name("QDL"); assert(name != NULL); assert(0 == strcmp(name, "QD Laser, Inc."));
     name = pnp_name("QDM"); assert(name != NULL); assert(0 == strcmp(name, "Quadram"));
     name = pnp_name("QDS"); assert(name != NULL); assert(0 == strcmp(name, "Quanta Display Inc."));
     name = pnp_name("QFF"); assert(name != NULL); assert(0 == strcmp(name, "Padix Co., Inc."));
@@ -1994,6 +2001,7 @@ int main(void)
     name = pnp_name("SNP"); assert(name != NULL); assert(0 == strcmp(name, "Siemens Nixdorf Info Systems"));
     name = pnp_name("SNS"); assert(name != NULL); assert(0 == strcmp(name, "Cirtech (UK) Ltd"));
     name = pnp_name("SNT"); assert(name != NULL); assert(0 == strcmp(name, "SuperNet Inc"));
+    name = pnp_name("SNV"); assert(name != NULL); assert(0 == strcmp(name, "SONOVE GmbH"));
     name = pnp_name("SNW"); assert(name != NULL); assert(0 == strcmp(name, "Snell & Wilcox"));
     name = pnp_name("SNX"); assert(name != NULL); assert(0 == strcmp(name, "Sonix Comm. Ltd"));
     name = pnp_name("SNY"); assert(name != NULL); assert(0 == strcmp(name, "Sony"));
@@ -2076,6 +2084,7 @@ int main(void)
     name = pnp_name("SXB"); assert(name != NULL); assert(0 == strcmp(name, "Syntax-Brillian"));
     name = pnp_name("SXD"); assert(name != NULL); assert(0 == strcmp(name, "Silex technology, Inc."));
     name = pnp_name("SXG"); assert(name != NULL); assert(0 == strcmp(name, "SELEX GALILEO"));
+    name = pnp_name("SXI"); assert(name != NULL); assert(0 == strcmp(name, "Silex Inside"));
     name = pnp_name("SXL"); assert(name != NULL); assert(0 == strcmp(name, "SolutionInside"));
     name = pnp_name("SXT"); assert(name != NULL); assert(0 == strcmp(name, "SHARP TAKAYA ELECTRONIC INDUSTRY CO.,LTD."));
     name = pnp_name("SYC"); assert(name != NULL); assert(0 == strcmp(name, "Sysmic"));
@@ -2220,6 +2229,7 @@ int main(void)
     name = pnp_name("TSP"); assert(name != NULL); assert(0 == strcmp(name, "U.S. Navy"));
     name = pnp_name("TST"); assert(name != NULL); assert(0 == strcmp(name, "Transtream Inc"));
     name = pnp_name("TSV"); assert(name != NULL); assert(0 == strcmp(name, "TRANSVIDEO"));
+    name = pnp_name("TSW"); assert(name != NULL); assert(0 == strcmp(name, "VRSHOW Technology Limited"));
     name = pnp_name("TSY"); assert(name != NULL); assert(0 == strcmp(name, "TouchSystems"));
     name = pnp_name("TTA"); assert(name != NULL); assert(0 == strcmp(name, "Topson Technology Co., Ltd."));
     name = pnp_name("TTB"); assert(name != NULL); assert(0 == strcmp(name, "National Semiconductor Japan Ltd"));
@@ -2345,6 +2355,7 @@ int main(void)
     name = pnp_name("VRG"); assert(name != NULL); assert(0 == strcmp(name, "VRgineers, Inc."));
     name = pnp_name("VRM"); assert(name != NULL); assert(0 == strcmp(name, "VRmagic Holding AG"));
     name = pnp_name("VRS"); assert(name != NULL); assert(0 == strcmp(name, "VRstudios, Inc."));
+    name = pnp_name("VRT"); assert(name != NULL); assert(0 == strcmp(name, "Varjo Technologies"));
     name = pnp_name("VSC"); assert(name != NULL); assert(0 == strcmp(name, "ViewSonic Corporation"));
     name = pnp_name("VSD"); assert(name != NULL); assert(0 == strcmp(name, "3M"));
     name = pnp_name("VSI"); assert(name != NULL); assert(0 == strcmp(name, "VideoServer"));
@@ -2390,7 +2401,7 @@ int main(void)
     name = pnp_name("WMT"); assert(name != NULL); assert(0 == strcmp(name, "Winmate Communication Inc"));
     name = pnp_name("WNI"); assert(name != NULL); assert(0 == strcmp(name, "WillNet Inc."));
     name = pnp_name("WNV"); assert(name != NULL); assert(0 == strcmp(name, "Winnov L.P."));
-    name = pnp_name("WNX"); assert(name != NULL); assert(0 == strcmp(name, "Wincor Nixdorf International GmbH"));
+    name = pnp_name("WNX"); assert(name != NULL); assert(0 == strcmp(name, "Diebold Nixdorf Systems GmbH"));
     name = pnp_name("WPA"); assert(name != NULL); assert(0 == strcmp(name, "Matsushita Communication Industrial Co., Ltd."));
     name = pnp_name("WPI"); assert(name != NULL); assert(0 == strcmp(name, "Wearnes Peripherals International (Pte) Ltd"));
     name = pnp_name("WRC"); assert(name != NULL); assert(0 == strcmp(name, "WiNRADiO Communications"));
