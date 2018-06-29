@@ -58,6 +58,8 @@ Forum body and use it to generate updated C code.
 
 **License**
 
+Author: Ben Golightly <golightly.ben@googlemail.com>
+
 I believe the generated file should be free to use. The UEFI Forum states:
 
 "**There is no charge for use of the specification itself.** The promoters of
