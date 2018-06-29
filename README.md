@@ -16,9 +16,6 @@ If you're writing code for Linux, the proper way to do this is with libudev.
 But! If you're writing cross platform code / udev might not be available /
 this is all you need / want to keep things simple... this'll do it! :)
 
-If this code saved you some time, please consider
-[making a donation](https://www.patreon.com/golightlyb) to the author.
-
 
 **Features:**
 
