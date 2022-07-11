@@ -103,9 +103,9 @@ Aldebbaron,ADB,03/15/2001
 "Alpha Telecom Inc",ATD,09/26/1997
 "Alpha-Top Corporation",ATP,1996/04/12
 "AlphaView LCD",ALV,2008/01/11
-"Alpine Electronics, Inc.",APE,01/22/2013
-"Alps Electric Company Ltd",ALP,11/29/1996
-"Alps Electric Inc",AUI,11/29/1996
+"ALPS ALPINE CO., LTD.",APE,01/22/2013
+"ALPS ALPINE CO., LTD.",ALP,11/29/1996
+"ALPS ALPINE CO., LTD.",AUI,11/29/1996
 "Alta Research Corporation",ARC,11/29/1996
 "Altec Corporation",ALC,1998/04/08
 "Altec Lansing",ALJ,01/13/2000
@@ -269,7 +269,7 @@ BARC,BRC,2000/10/08
 "Beko Elektronik A.S.",BEK,06/15/2005
 "Beltronic Industrieelektronik GmbH",BEL,2006/05/09
 "Benson Medical Instruments Company",BMI,1996/04/12
-"Bernecker & Rainer Ind-Eletronik GmbH",BUR,11/29/1996
+"B&R Industrial Automation GmbH",BUR,11/29/1996
 "Best Buy",INZ,2004/04/06
 "Best Buy",VPR,05/16/2002
 "Best Power",BPU,11/29/1996
@@ -718,7 +718,7 @@ eSATURNUS,ESN,02/21/2012
 "ESS Technology Inc",ESS,11/29/1996
 "ESSential Comm. Corporation",ECC,11/29/1996
 "Esterline Technologies",ESL,2012/06/01
-"Esterline Belgium BVBA",ESB,01/15/2015
+ScioTeq,ESB,01/15/2015
 "E-Systems Inc",ESY,11/29/1996
 "ET&T Technology Company Ltd",EEE,1998/04/05
 "E-Tech Inc",ETT,11/29/1996
@@ -1257,7 +1257,7 @@ Luxeon,LXN,03/15/2001
 Matrox,MTX,11/29/1996
 "Mat's Computers",MCQ,07/22/2004
 "Matsushita Communication Industrial Co., Ltd.",WPA,03/15/2001
-"Matsushita Electric Ind. Company Ltd",MAT,11/29/1996
+"Panasonic Connect Co.,Ltd.",MAT,2022/01/04
 "MaxCom Technical Inc",MTI,11/29/1996
 "MaxData Computer AG",VOB,02/21/2000
 "MaxData Computer GmbH & Co.KG",MXD,04/19/2000
@@ -2079,7 +2079,7 @@ TONNA,TON,03/14/2012
 "Torus Systems Ltd",TRS,11/29/1996
 "Toshiba America Info Systems Inc",TAI,11/29/1996
 "Toshiba America Info Systems Inc",TSB,11/29/1996
-"Toshiba Corporation",TOS,11/29/1996
+"Dynabook Inc.",TOS,11/29/1996
 "Toshiba Corporation",TTP,2015/07/07
 "Toshiba Global Commerce Solutions, Inc.",TGC,06/26/2012
 "Toshiba Matsushita Display Technology Co., Ltd",LCD,05/24/2000
@@ -2439,3 +2439,69 @@ NewTek,NTK,06/22/2017
 "Astro HQ LLC",AHQ,2018/05/09
 "QSC, LLC",QSC,01/18/2019
 "Dimension Engineering LLC",DMN,2019/06/02
+"Shenzhen Dlodlo Technologies Co., Ltd.",DLO,04/29/2019
+"LENOVO BEIJING CO. LTD.",VLM,05/21/2019
+"Cammegh Limited",CRW,06/18/2019
+"Beihai Century Joint Innovation Technology Co.,Ltd",LHC,2019/10/09
+"Findex, Inc.",FDX,10/22/2019
+"Express Luck, Inc.",ELD,10/22/2019
+"LLC SKTB “SKIT”",SKI,10/22/2019
+"WOLF Advanced Technology",WLF,10/22/2019
+"BILD INNOVATIVE TECHNOLOGY LLC",BLD,10/22/2019
+"MIMO Monitors",MMT,10/22/2019
+Icron,ICR,10/22/2019
+"TECNART CO.,LTD.",PIS,10/22/2019
+"Moxa Inc.",MHQ,10/22/2019
+"Disguise Technologies",DSG,10/22/2019
+"Comark LLC",CMK,07/15/2020
+"Megapixel Visual Realty",MPV,07/15/2020
+Skyworth,SKW,07/15/2020
+"Meta View, Inc.",CFR,07/15/2020
+MILCOTS,MLC,07/15/2020
+"NZXT (PNP same EDID)_",NXT,07/15/2020
+"Unicompute Technology Co., Ltd.",UTC,10/19/2020
+"TECHNOGYM S.p.A.",TGW,2021/08/01
+"Clover Electronics",CLR,2021/02/02
+"Kyokko Communication System Co., Ltd.",KTS,02/18/2021
+"Terumo Corporation",TMO,2021/02/02
+"Micro-Star Int'l Co., Ltd.",CND,02/17/2021
+"Newline Interactive Inc.",NWL,2020/03/12
+"CORSAIR MEMORY Inc.",CRM,2021/05/02
+aviica,VAV,2021/01/06
+Monoprice.Inc,DMG,2021/04/06
+"Shenzhen KTC Technology Group",SKG,2021/01/06
+"Truly Semiconductors Ltd.",TLY,2021/01/06
+"Hitevision Group",HHT,2021/08/03
+"DLOGIC Ltd.",DLM,2021/10/06
+"Fun Technology Innovation INC.",FUL,2021/10/06
+"Guangxi Century Innovation Display Electronics Co., Ltd",IOC,2021/10/06
+"ICC Intelligent Platforms GmbH",EMR,2021/10/06
+"New H3C Technology Co., Ltd.",NHC,2021/10/06
+"Seco S.p.A.",SCG,2021/10/06
+"Silent Power Electronics GmbH",LCP,2021/10/06
+"NAFASAE INDIA Pvt. Ltd",NAF,06/18/2021
+"Pico Technology Inc.",PIR,06/18/2021
+"Life is Style Inc.",LIS,06/18/2021
+"Hansung Co., Ltd",HSN,06/18/2021
+"Hubei Century Joint Innovation Technology Co.Ltd",TTR,06/18/2021
+"Zake IP Holdings LLC (3B tech)",VIO,06/18/2021
+"PreSonus Audio Electronics",PAE,06/24/2021
+"C&T Solution Inc.",MXM,07/21/2021
+VARCem,VCE,07/21/2021
+"Nextorage Corporation",NXR,09/21/2021
+"Netvio Ltd.",NVO,09/21/2021
+"Beijing Guochengwantong Information Technology Co., Ltd.",STV,09/21/2021
+"Kopin Corporation",KOP,2021/01/10
+"Anker Innovations Limited",AKR,2021/10/12
+"SAMPO CORPORATION",SPO,2021/10/12
+"Shiftall Inc.",SFL,12/31/2021
+AudioControl,AUD,12/31/2021
+"Schneider Consumer Group",SCA,2022/08/02
+"NOLO CO., LTD.",NVR,2022/08/04
+"Riedel Communications Canada Inc.",RDL,2022/08/04
+"arpara Technology Co., Ltd.",IMX,2022/08/04
+Nreal,MRG,2022/08/04
+"Venetex Corporation",VNX,2022/08/04
+G.VISION,GVS,06/17/2022
+"Galaxy Microsystems Ltd.",GXL,06/17/2022
+"OZO Co.Ltd",OZD,06/17/2022
